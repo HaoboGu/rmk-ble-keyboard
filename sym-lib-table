@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "e73")(type "KiCad")(uri "${KIPRJMOD}/footprints/E73.PcbLib")(options "")(descr ""))
+  (lib (name "rmk-ble-keyboard-altium-import")(type "KiCad")(uri "${KIPRJMOD}/rmk-ble-keyboard-altium-import.kicad_sym")(options "")(descr ""))
+)
