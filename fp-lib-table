@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "E73_2G4M08S1C")(type "KiCad")(uri "${KIPRJMOD}/library/E73_2G4M08S1C.pretty/")(options "")(descr ""))
+)
