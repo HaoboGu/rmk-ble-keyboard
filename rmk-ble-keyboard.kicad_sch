@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "5823a915-d0ed-4262-9b2d-d2247405cf69")
 	(paper "A4")
+	(title_block
+		(title "rmk-ble-keyboard")
+		(date "2024-05-03")
+		(rev "0")
+	)
 	(lib_symbols
 		(symbol "E73_2G4M08S1C:E73-2G4M08S1C"
 			(exclude_from_sim no)
@@ -843,7 +848,7 @@
 	)
 	(symbol
 		(lib_id "E73_2G4M08S1C:E73-2G4M08S1C")
-		(at 147.32 88.9 0)
+		(at 60.96 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -852,7 +857,7 @@
 		(fields_autoplaced yes)
 		(uuid "2938a352-ed41-4066-b947-a169861916f0")
 		(property "Reference" "U1"
-			(at 146.685 59.69 0)
+			(at 60.325 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +865,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 146.685 62.23 0)
+			(at 60.325 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +873,7 @@
 			)
 		)
 		(property "Footprint" "E73_2G4M08S1C:E73(2G4M08S1C)"
-			(at 147.32 88.9 0)
+			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 88.9 0)
+			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,7 +891,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 88.9 0)
+			(at 60.96 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,6 +1033,44 @@
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69"
 					(reference "U1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.38 20.32)
+		(size 33.02 138.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6def72d6-87e9-41ed-89a1-5d51912b2db4")
+		(property "Sheetname" "matrix"
+			(at 246.38 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "matrix.kicad_sch"
+			(at 246.38 159.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rmk-ble-keyboard"
+				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69"
+					(page "2")
 				)
 			)
 		)

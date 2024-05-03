@@ -415,7 +415,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -576,6 +576,10 @@
     [
       "5823a915-d0ed-4262-9b2d-d2247405cf69",
       "根目录"
+    ],
+    [
+      "6def72d6-87e9-41ed-89a1-5d51912b2db4",
+      "matrix"
     ]
   ],
   "text_variables": {}
