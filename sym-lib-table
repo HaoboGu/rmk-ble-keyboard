@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
   (lib (name "E73_2G4M08S1C")(type "KiCad")(uri "${KIPRJMOD}/library/E73_2G4M08S1C.kicad_sym")(options "")(descr ""))
+  (lib (name "TPD4E05U06DQAR")(type "KiCad")(uri "${KIPRJMOD}/library/TPD4E05U06DQAR.kicad_sym")(options "")(descr ""))
+  (lib (name "ASMD1206-200")(type "KiCad")(uri "${KIPRJMOD}/library/ASMD1206-200.kicad_sym")(options "")(descr ""))
+  (lib (name "SMF6.0A")(type "KiCad")(uri "${KIPRJMOD}/library/SMF6.0A.kicad_sym")(options "")(descr ""))
 )

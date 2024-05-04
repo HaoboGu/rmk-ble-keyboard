@@ -580,6 +580,10 @@
     [
       "6def72d6-87e9-41ed-89a1-5d51912b2db4",
       "matrix"
+    ],
+    [
+      "80617de3-f245-4e85-9542-0f05c79e7b1e",
+      "power"
     ]
   ],
   "text_variables": {}
