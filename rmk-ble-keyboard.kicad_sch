@@ -1076,7 +1076,7 @@
 		)
 	)
 	(sheet
-		(at 189.23 20.32)
+		(at 171.45 17.78)
 		(size 52.07 34.29)
 		(fields_autoplaced yes)
 		(stroke
@@ -1088,7 +1088,7 @@
 		)
 		(uuid "80617de3-f245-4e85-9542-0f05c79e7b1e")
 		(property "Sheetname" "power"
-			(at 189.23 19.6084 0)
+			(at 171.45 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +1097,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 189.23 55.1946 0)
+			(at 171.45 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
