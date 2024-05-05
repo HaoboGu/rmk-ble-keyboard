@@ -3,7 +3,7 @@
 ## schema
 
 - [ ] charging led, numslock led, etc
-- [ ] E73 module
-- [ ] SWD
+- [x] E73 module
+- [x] SWD
 - [ ] RGB out
 - [ ] reset button
