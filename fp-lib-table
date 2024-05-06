@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "E73_2G4M08S1C")(type "KiCad")(uri "${KIPRJMOD}/library/E73_2G4M08S1C.pretty/")(options "")(descr ""))
   (lib (name "TP4056")(type "KiCad")(uri "${KIPRJMOD}/library/TP4056.pretty/")(options "")(descr ""))
+  (lib (name "B5819W-SL")(type "KiCad")(uri "${KIPRJMOD}/library/B5819W-SL.pretty/")(options "")(descr ""))
 )

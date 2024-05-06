@@ -1,0 +1,116 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "B5819W_C8598"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D?"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "B5819W-SL:SOD-123_L2.7-W1.6-LS3.7-RD-1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "B5819W_C8598_1_0"
+			(polyline
+				(pts
+					(xy 1.27 1.524) (xy -1.27 0) (xy -1.27 0) (xy 1.27 -1.524) (xy 1.27 -1.524) (xy 1.27 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -1.778) (xy -0.508 -2.286) (xy -0.508 -2.286) (xy -1.27 -2.286) (xy -1.27 -2.286) (xy -1.27 1.016)
+					(xy -1.27 1.016) (xy -1.27 1.778) (xy -1.27 1.778) (xy -2.032 1.778) (xy -2.032 1.778) (xy -2.032 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "-"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 3.81)
+				(name "+"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+			)
+		)
+	)
+)
