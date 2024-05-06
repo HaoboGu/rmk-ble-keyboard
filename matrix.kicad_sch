@@ -2938,7 +2938,7 @@
 	)
 	(hierarchical_label "row5"
 		(shape input)
-		(at 382.27 186.69 0)
+		(at 381 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

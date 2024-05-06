@@ -2776,366 +2776,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+BATT"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+BATT"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+BATT\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+BATT_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+BATT_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3342,22 +2982,10 @@
 		(uuid "3fb87ccc-1989-4b9f-b637-19bcc1c58e50")
 	)
 	(junction
-		(at 223.52 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "413f7643-6e48-4cac-919e-bb66de30ea13")
-	)
-	(junction
 		(at 241.3 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "527b7a49-1334-48d9-89de-0ba0b96637c0")
-	)
-	(junction
-		(at 267.97 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58db3d0d-f369-4a56-b9ab-baafe642f985")
 	)
 	(junction
 		(at 257.81 76.2)
@@ -3384,7 +3012,7 @@
 		(uuid "92454b8f-6f57-45f4-ae6b-a3464781373a")
 	)
 	(junction
-		(at 207.01 40.64)
+		(at 196.85 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd4c1f14-0a99-4d39-9aa8-fbc676129937")
@@ -3491,16 +3119,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 30.48) (xy 207.01 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "192137ba-05c6-43f8-9310-ec7fb20cac69")
-	)
-	(wire
-		(pts
 			(xy 156.21 67.31) (xy 157.48 67.31)
 		)
 		(stroke
@@ -3528,6 +3146,16 @@
 			(type default)
 		)
 		(uuid "1e5660a3-6421-439d-a3c2-6d77692c18f9")
+	)
+	(wire
+		(pts
+			(xy 176.53 29.21) (xy 176.53 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26033187-df1e-4fb1-902c-7a299a5b52b3")
 	)
 	(wire
 		(pts
@@ -3568,16 +3196,6 @@
 			(type default)
 		)
 		(uuid "3bd7b579-61c4-4051-9828-5f836fc5383a")
-	)
-	(wire
-		(pts
-			(xy 223.52 54.61) (xy 223.52 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4210395b-9ee6-4d78-8934-de61c3bcc5bf")
 	)
 	(wire
 		(pts
@@ -3671,13 +3289,33 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 52.07) (xy 72.39 52.07)
+			(xy 72.39 52.07) (xy 74.93 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "723106eb-61c3-402b-b6f3-5afcdb65f9e5")
+		(uuid "6fec9c2c-664d-4b09-bacd-20707eaa0719")
+	)
+	(wire
+		(pts
+			(xy 222.25 66.04) (xy 223.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730f001f-0455-4954-823d-1d861ad78200")
+	)
+	(wire
+		(pts
+			(xy 119.38 59.69) (xy 119.38 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767ad3ee-3db6-41c5-89ad-08626c3b3312")
 	)
 	(wire
 		(pts
@@ -3691,17 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 33.02) (xy 176.53 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77eeee50-0687-46f9-bfb4-c4ea4c575e3e")
-	)
-	(wire
-		(pts
-			(xy 207.01 40.64) (xy 207.01 43.18)
+			(xy 196.85 39.37) (xy 196.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3758,16 +3386,6 @@
 			(type default)
 		)
 		(uuid "87e4f954-99fa-4a04-83ca-a6734062db2d")
-	)
-	(wire
-		(pts
-			(xy 270.51 66.04) (xy 267.97 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bc1ddaa-e1a5-4608-a969-e1149cbacc20")
 	)
 	(wire
 		(pts
@@ -3831,7 +3449,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 40.64) (xy 207.01 40.64)
+			(xy 200.66 39.37) (xy 196.85 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3898,6 +3516,26 @@
 			(type default)
 		)
 		(uuid "b76b8685-c884-4189-a3b4-2684bf67d826")
+	)
+	(wire
+		(pts
+			(xy 196.85 29.21) (xy 196.85 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c101dca9-963d-479b-b11d-eb1aa14fbc53")
+	)
+	(wire
+		(pts
+			(xy 176.53 29.21) (xy 196.85 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c628d48a-02fd-48d5-8bbf-2a24b82cfcad")
 	)
 	(wire
 		(pts
@@ -4051,7 +3689,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 38.1) (xy 207.01 40.64)
+			(xy 196.85 36.83) (xy 196.85 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4240,6 +3878,116 @@
 		)
 		(uuid "f2d57101-48d7-42fa-8879-0ba88f69757c")
 	)
+	(global_label "VBUS"
+		(shape input)
+		(at 74.93 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2db3f6ae-ac48-45a5-a8d8-64b21ffff836")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.3629 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 267.97 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "626c687a-2a89-4655-9397-322015bc0262")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.0195 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 154.94 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89e292af-203f-46c0-9596-975f4fad1d48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.5071 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 119.38 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9883d6ef-b3a4-492b-a36a-7864e29c387b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.8129 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 222.25 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb2e11bc-8883-4ffd-85f1-e1a454078676")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.8171 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "CHARGE"
 		(shape input)
 		(at 204.47 67.31 0)
@@ -4278,13 +4026,13 @@
 	)
 	(hierarchical_label "bat_adc"
 		(shape input)
-		(at 204.47 40.64 180)
+		(at 200.66 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d10fec30-2040-40c9-b430-0048fef17f66")
 	)
@@ -4306,7 +4054,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT"
+		(property "Value" "MSK-12C02"
 			(at 167.64 34.29 0)
 			(effects
 				(font
@@ -4314,7 +4062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MSK-12C02:SW-TH_MSK12C02"
 			(at 167.64 40.64 0)
 			(effects
 				(font
@@ -4354,72 +4102,6 @@
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/80617de3-f245-4e85-9542-0f05c79e7b1e"
 					(reference "SW62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 77.47 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08a39eae-ab99-4b3d-8b0c-87598ec04898")
-		(property "Reference" "#PWR03"
-			(at 77.47 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 77.47 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 77.47 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68e74e27-7dbe-42a1-a42f-dc1aa39be74d")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/80617de3-f245-4e85-9542-0f05c79e7b1e"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4493,16 +4175,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 207.01 45.72 0)
+		(at 196.85 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "16549000-84da-4a1e-a3c8-1970dcd7dccb")
 		(property "Reference" "R9"
-			(at 209.55 44.4499 0)
+			(at 199.39 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4192,7 @@
 			)
 		)
 		(property "Value" "2M"
-			(at 209.55 46.9899 0)
+			(at 199.39 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4519,8 +4200,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "jiran-ble-lite:R_0603"
-			(at 207.01 45.72 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 45.72 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4219,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 45.72 0)
+			(at 196.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 223.52 73.66 0)
 			(effects
 				(font
@@ -4631,72 +4312,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 176.53 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c511507-13e1-4379-b938-0d77335de3fa")
-		(property "Reference" "#PWR019"
-			(at 176.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 176.53 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 176.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b2005e89-9a38-4220-a9ec-bcc197747f0b")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/80617de3-f245-4e85-9542-0f05c79e7b1e"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 162.56 76.2 90)
 		(unit 1)
@@ -4723,7 +4338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 162.56 77.978 90)
 			(effects
 				(font
@@ -5007,7 +4622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 247.65 71.12 0)
 			(effects
 				(font
@@ -5051,7 +4666,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 48.26 0)
+		(at 196.85 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5059,7 +4674,7 @@
 		(dnp no)
 		(uuid "4964c44a-4cfb-4182-af23-020b655260b5")
 		(property "Reference" "#PWR029"
-			(at 207.01 54.61 0)
+			(at 196.85 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +4683,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 52.07 0)
+			(at 196.85 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +4691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 48.26 0)
+			(at 196.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +4700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 48.26 0)
+			(at 196.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +4709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 48.26 0)
+			(at 196.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +4754,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 78.74 61.468 90)
 			(effects
 				(font
@@ -5339,7 +4954,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.1 69.088 90)
 			(effects
 				(font
@@ -5406,7 +5021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 78.74 58.928 90)
 			(effects
 				(font
@@ -5515,72 +5130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 223.52 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ef2915a-8e3e-4c12-b927-b4ca90848a23")
-		(property "Reference" "#PWR030"
-			(at 223.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 223.52 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 223.52 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b802595-4cc4-4a72-9135-8cd8f98f73f6")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/80617de3-f245-4e85-9542-0f05c79e7b1e"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 267.97 71.12 0)
 		(unit 1)
@@ -5607,7 +5156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 267.97 71.12 0)
 			(effects
 				(font
@@ -5716,17 +5265,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 207.01 30.48 0)
+		(lib_id "power:GND")
+		(at 265.43 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "882edf57-09f1-421e-ab3a-d29b2a7e4663")
-		(property "Reference" "#PWR032"
-			(at 207.01 34.29 0)
+		(uuid "82a451fd-4ca7-45d9-8abd-f78259266b23")
+		(property "Reference" "#PWR033"
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,8 +5283,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 207.01 25.4 0)
+		(property "Value" "GND"
+			(at 265.43 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5292,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 30.48 0)
+			(at 265.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +5301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 30.48 0)
+			(at 265.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,74 +5309,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 207.01 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "44b00305-0074-4c68-b072-df1fa1c950c2")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/80617de3-f245-4e85-9542-0f05c79e7b1e"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 154.94 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d4d7e23-2073-42ad-a65d-09e26b2dc951")
-		(property "Reference" "#PWR011"
-			(at 154.94 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 154.94 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,78 +5319,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb88c75b-1560-4500-b31b-9391947a4b5d")
+			(uuid "e73c294a-a8af-4900-81ab-7e79d4074efb")
 		)
 		(instances
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/80617de3-f245-4e85-9542-0f05c79e7b1e"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 270.51 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e89e72e-8b06-4b4a-a580-dd451e995bc4")
-		(property "Reference" "#PWR014"
-			(at 270.51 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 270.51 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 270.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9dff7c8c-07df-4af4-a278-e01ddee36295")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/80617de3-f245-4e85-9542-0f05c79e7b1e"
-					(reference "#PWR014")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -5930,6 +5347,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
@@ -6023,7 +5441,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 154.94 39.878 90)
 			(effects
 				(font
@@ -6157,7 +5575,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
 			(at 243.84 52.07 0)
 			(effects
 				(font
@@ -6295,7 +5713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 60.96 67.31 0)
 			(effects
 				(font
@@ -6537,6 +5955,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 265.43 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca2c516c-a6bc-495a-92b4-2e6aac463a04")
+		(property "Reference" "#FLG02"
+			(at 265.43 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 265.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 265.43 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af4b8a6e-c7eb-4505-ae83-c51fded78ec5")
+		)
+		(instances
+			(project "rmk-ble-keyboard"
+				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/80617de3-f245-4e85-9542-0f05c79e7b1e"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 87.63 0)
 		(unit 1)
@@ -6671,16 +6155,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 207.01 35.56 0)
+		(at 196.85 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df35a6aa-e661-402d-b82e-b2997836dac6")
 		(property "Reference" "R8"
-			(at 209.55 34.2899 0)
+			(at 199.39 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +6172,7 @@
 			)
 		)
 		(property "Value" "810K"
-			(at 209.55 36.8299 0)
+			(at 199.39 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,8 +6180,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "jiran-ble-lite:R_0603"
-			(at 207.01 35.56 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 196.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6190,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 35.56 0)
+			(at 196.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +6199,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 35.56 0)
+			(at 196.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,72 +6355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 119.38 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9642c4d-52f4-4ec1-9a1f-8f1d6e0859e8")
-		(property "Reference" "#PWR07"
-			(at 119.38 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 119.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54e986ef-d31e-420f-b339-1593922351e5")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/80617de3-f245-4e85-9542-0f05c79e7b1e"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 200.66 78.74 0)
 		(unit 1)
@@ -6965,7 +6382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 201.6252 82.55 0)
 			(effects
 				(font
@@ -7035,7 +6452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 171.1452 87.63 0)
 			(effects
 				(font
