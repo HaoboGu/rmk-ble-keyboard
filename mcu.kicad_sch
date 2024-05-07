@@ -2458,9 +2458,9 @@
 			)
 		)
 	)
-	(hierarchical_label "row1"
+	(hierarchical_label "row2"
 		(shape input)
-		(at 25.4 58.42 180)
+		(at 25.4 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2468,11 +2468,11 @@
 			)
 			(justify right)
 		)
-		(uuid "030751c0-0566-4709-a8e0-c734f5646ca2")
+		(uuid "009c4581-eb77-4bdd-89ad-19eae6c5f706")
 	)
-	(hierarchical_label "col4"
+	(hierarchical_label "col3"
 		(shape input)
-		(at 25.4 45.72 180)
+		(at 25.4 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2480,7 +2480,19 @@
 			)
 			(justify right)
 		)
-		(uuid "08541f28-3368-4b5c-89f8-d003638323e2")
+		(uuid "03a93b75-2861-4d44-90a4-2b45a42764ce")
+	)
+	(hierarchical_label "row5"
+		(shape input)
+		(at 25.4 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07c06171-9bcb-480d-868a-1967f5619d5e")
 	)
 	(hierarchical_label "col13"
 		(shape input)
@@ -2506,9 +2518,9 @@
 		)
 		(uuid "1de433fb-7a2b-4794-b014-fe7e75bfd00f")
 	)
-	(hierarchical_label "row3"
+	(hierarchical_label "col2"
 		(shape input)
-		(at 25.4 63.5 180)
+		(at 25.4 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2516,7 +2528,7 @@
 			)
 			(justify right)
 		)
-		(uuid "32825e56-c2b3-4a0b-9a3a-e894af3d24f7")
+		(uuid "25aca67e-6914-401b-9b6e-760969b6b2a9")
 	)
 	(hierarchical_label "col11"
 		(shape input)
@@ -2578,9 +2590,9 @@
 		)
 		(uuid "79c82207-c013-4902-9f8d-55ba442aeb42")
 	)
-	(hierarchical_label "col3"
+	(hierarchical_label "col1"
 		(shape input)
-		(at 25.4 48.26 180)
+		(at 25.4 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2588,7 +2600,7 @@
 			)
 			(justify right)
 		)
-		(uuid "8583bf7a-7b12-49d6-b304-1df62cb7f280")
+		(uuid "7fafb875-e276-4020-8d41-294d8ce7f249")
 	)
 	(hierarchical_label "col5"
 		(shape input)
@@ -2602,9 +2614,9 @@
 		)
 		(uuid "864abbe4-3b20-4452-95a2-c5f05e372db3")
 	)
-	(hierarchical_label "row4"
+	(hierarchical_label "row1"
 		(shape input)
-		(at 25.4 66.04 180)
+		(at 25.4 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2612,11 +2624,11 @@
 			)
 			(justify right)
 		)
-		(uuid "983c88ac-2da4-4e5f-b051-b0a4b23b342e")
+		(uuid "87fa6352-a695-401b-841f-ff304279fd29")
 	)
-	(hierarchical_label "col1"
+	(hierarchical_label "row3"
 		(shape input)
-		(at 25.4 53.34 180)
+		(at 25.4 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2624,7 +2636,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9b5319b4-be74-4a41-8c36-4bb00366f299")
+		(uuid "8e79022c-affc-4f0a-a0ba-1b03591808b9")
 	)
 	(hierarchical_label "bat_adc"
 		(shape input)
@@ -2637,18 +2649,6 @@
 			(justify right)
 		)
 		(uuid "a2d88988-b3c1-474d-9f9d-e41a5c879073")
-	)
-	(hierarchical_label "row5"
-		(shape input)
-		(at 25.4 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7cbbcd0-0b7e-45ac-9a18-a3b3992c1617")
 	)
 	(hierarchical_label "D-"
 		(shape input)
@@ -2673,6 +2673,18 @@
 			(justify left)
 		)
 		(uuid "b0ed703a-0fbb-4231-9e04-6b8712a45380")
+	)
+	(hierarchical_label "row4"
+		(shape input)
+		(at 25.4 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b56001df-638d-4295-bf68-d249b6c55602")
 	)
 	(hierarchical_label "col6"
 		(shape input)
@@ -2710,19 +2722,7 @@
 		)
 		(uuid "d148e52c-ee49-4eb9-bfad-e39000f17989")
 	)
-	(hierarchical_label "col2"
-		(shape input)
-		(at 25.4 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d198ab9d-b5d5-4df4-ae00-f3c6449486b6")
-	)
-	(hierarchical_label "row2"
+	(hierarchical_label "col4"
 		(shape input)
 		(at 25.4 60.96 180)
 		(fields_autoplaced yes)
@@ -2732,7 +2732,74 @@
 			)
 			(justify right)
 		)
-		(uuid "fbe04af9-55c8-4f12-9acb-91ee17c7c03a")
+		(uuid "f902c9fd-eef2-40d5-af71-5d49d2e1f207")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "133613f5-1db7-4e2a-8f8c-eb71edcbeb46")
+		(property "Reference" "#PWR03"
+			(at 19.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6554db67-46fa-4d5e-9136-15c95b9e0287")
+		)
+		(instances
+			(project "rmk-ble-keyboard"
+				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2899,7 +2966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -4080,73 +4147,6 @@
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4031f50-04d8-4fc5-b8da-f9bade76d5ad")
-		(property "Reference" "#PWR017"
-			(at 19.05 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 21.59 55.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4048d6a-eb9c-4c45-9851-2cbc97580c1e")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
