@@ -43,8 +43,50 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Green")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Green")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(aux_axis_origin 28.956 123.444)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -72533,8 +72575,8 @@
 		)
 	)
 	(gr_line
-		(start 313.95 28.95)
-		(end 313.95 123.45)
+		(start 313.95 30.95)
+		(end 313.95 121.45)
 		(stroke
 			(width 0.4)
 			(type default)
@@ -72543,8 +72585,8 @@
 		(uuid "1117b315-cafb-463a-9e0e-b75fa9c38c67")
 	)
 	(gr_line
-		(start 28.95 123.45)
-		(end 28.95 28.95)
+		(start 28.95 121.45)
+		(end 28.95 30.95)
 		(stroke
 			(width 0.4)
 			(type default)
@@ -72552,9 +72594,53 @@
 		(layer "Edge.Cuts")
 		(uuid "3f1b8b59-84d4-4a01-857c-e5e3eb9ba203")
 	)
+	(gr_arc
+		(start 28.95 30.95)
+		(mid 29.535786 29.535786)
+		(end 30.95 28.95)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5e4c5552-9242-42e7-b955-9cd24a5997fc")
+	)
+	(gr_arc
+		(start 311.95 28.95)
+		(mid 313.364214 29.535786)
+		(end 313.95 30.95)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "617e0f87-5ad3-4071-9e34-fb9c7943b53a")
+	)
+	(gr_arc
+		(start 313.95 121.45)
+		(mid 313.364214 122.864214)
+		(end 311.95 123.45)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "941d7f40-babb-4583-a897-11d3b59d5b73")
+	)
+	(gr_arc
+		(start 30.95 123.45)
+		(mid 29.535786 122.864214)
+		(end 28.95 121.45)
+		(stroke
+			(width 0.4)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9d4fc7bc-02f0-4f80-98fe-26febd3abf8e")
+	)
 	(gr_line
-		(start 28.95 28.95)
-		(end 313.95 28.95)
+		(start 30.95 28.95)
+		(end 311.95 28.95)
 		(stroke
 			(width 0.4)
 			(type default)
@@ -72563,14 +72649,40 @@
 		(uuid "bc80c317-4efc-4fb2-b637-5c30f3bf7bf4")
 	)
 	(gr_line
-		(start 313.95 123.45)
-		(end 28.95 123.45)
+		(start 311.95 123.45)
+		(end 30.95 123.45)
 		(stroke
 			(width 0.4)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "c5bf4d77-fa58-4153-94d4-7dde8fb2e3f3")
+	)
+	(gr_text "PCB3D_TL_TEST"
+		(at 28.956 28.956 0)
+		(layer "F.Cu")
+		(uuid "001ac3f7-4892-47ba-a1d5-6b7c5cd610d5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PCB3D_BR_TEST"
+		(at 313.944 123.444 0)
+		(layer "F.Cu")
+		(uuid "cfae3049-eb30-4489-ad10-82e0c97ab5b4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 35.56 40.31)
