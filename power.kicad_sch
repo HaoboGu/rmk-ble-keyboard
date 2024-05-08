@@ -6493,7 +6493,7 @@
 				)
 			)
 		)
-		(property "Value" "Battery"
+		(property "Value" "JST-SM02B-SRSS-TB"
 			(at 184.15 33.02 0)
 			(effects
 				(font

@@ -100,4 +100,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# zip file
+*.zip
+
 # End of https://www.toptal.com/developers/gitignore/api/kicad,macos,windows
