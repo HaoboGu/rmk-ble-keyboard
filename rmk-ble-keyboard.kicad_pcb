@@ -55719,7 +55719,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Battery"
+		(property "Value" "JST-SM02B-SRSS-TB"
 			(at 0 -3.98 0)
 			(layer "B.Fab")
 			(uuid "171c582a-4fa9-47d7-b5d6-4d6ea825355d")
@@ -71903,7 +71903,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "810K"
+		(property "Value" "820K"
 			(at 0 -1.43 -90)
 			(layer "B.Fab")
 			(uuid "41bd5ead-a62e-4997-9de8-65b2075226dd")
@@ -81590,6 +81590,14 @@
 		(uuid "e39eed3d-4f47-45bb-bde7-c0c9ec879810")
 	)
 	(via
+		(at 130.7572 116.61115)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 83)
+		(uuid "4ca365b3-bb4b-4fd7-9f74-2e2b3a5e794e")
+	)
+	(via
 		(at 75.81 45.085)
 		(size 0.5)
 		(drill 0.3)
@@ -82049,6 +82057,14 @@
 		(uuid "3b403f4d-eac8-49d9-beee-9893a368195e")
 	)
 	(via
+		(at 130.7572 117.88115)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 91)
+		(uuid "4ecbc20a-21f9-48fb-81f6-b199b6d2e9ee")
+	)
+	(via
 		(at 41.75 86.605)
 		(size 0.8)
 		(drill 0.4)
@@ -82325,6 +82341,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 93)
 		(uuid "9ea71f2d-4056-48db-93c5-b60a45b49d6d")
+	)
+	(via
+		(at 130.7572 115.34115)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 93)
+		(uuid "a74c3a80-ed3d-46b6-a47e-b23ef74e8448")
 	)
 	(segment
 		(start 150.768924 123.02)
@@ -84606,6 +84630,14 @@
 		(net 105)
 		(uuid "6f9b6df2-e651-4b5a-b9fb-17e831129377")
 	)
+	(via
+		(at 138.0422 109.8714)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 105)
+		(uuid "fbe89acb-d1ee-49c0-b150-a2cd67fb142f")
+	)
 	(arc
 		(start 197.850762 103.99)
 		(mid 198.700028 103.82107)
@@ -84832,6 +84864,14 @@
 		(net 106)
 		(uuid "785f988a-7481-4e72-8543-e99e445ca363")
 	)
+	(via
+		(at 139.3122 109.8714)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 106)
+		(uuid "860cb860-7cee-4efd-aedb-8ace3adcf0a0")
+	)
 	(arc
 		(start 198.319046 104.58)
 		(mid 199.14218 104.416268)
@@ -85033,6 +85073,14 @@
 		(net 107)
 		(uuid "a0667ee0-9ed5-46a2-9f58-a929a57cda82")
 	)
+	(via
+		(at 140.5822 109.8714)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 107)
+		(uuid "b9367682-229f-457f-80d7-669fd6216498")
+	)
 	(arc
 		(start 198.714429 105.17)
 		(mid 199.800481 104.953978)
@@ -85190,6 +85238,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net 108)
 		(uuid "86544d00-72d6-4465-92ad-88f693e74f5d")
+	)
+	(via
+		(at 141.8472 109.8714)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net 108)
+		(uuid "b297f06d-4768-4bdf-9c52-c7198c0b1c54")
 	)
 	(arc
 		(start 204.069062 103.83)

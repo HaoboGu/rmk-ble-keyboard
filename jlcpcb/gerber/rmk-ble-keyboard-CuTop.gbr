@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
-%TF.CreationDate,2024-05-10T00:01:26+08:00*%
+%TF.CreationDate,2024-05-10T14:21:02+08:00*%
 %TF.ProjectId,rmk-ble-keyboard,726d6b2d-626c-4652-9d6b-6579626f6172,0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.2) date 2024-05-10 00:01:26*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2024-05-10 14:21:02*
 %MOMM*%
 %LPD*%
 G01*
@@ -672,6 +672,20 @@ D27*
 X22520000Y88770000D03*
 %TD*%
 D28*
+%TO.N,/mcu/caps*%
+X101807200Y5568850D03*
+%TO.N,/mcu/rgb*%
+X101807200Y6838850D03*
+%TO.N,/mcu/charging_led*%
+X101807200Y8108850D03*
+%TO.N,/matrix/col14*%
+X112897200Y13578600D03*
+%TO.N,/matrix/col13*%
+X111632200Y13578600D03*
+%TO.N,/matrix/col12*%
+X110362200Y13578600D03*
+%TO.N,/matrix/col11*%
+X109092200Y13578600D03*
 %TO.N,GND*%
 X41284000Y39920000D03*
 X144089997Y75730000D03*
