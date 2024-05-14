@@ -4107,7 +4107,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3abce692-34e7-4937-932c-1b98ea6aeb79")
+			(uuid "9bf8f2bd-7ce6-4fbb-a7e6-5fc53a702251")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4118,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "56da6f34-5cbd-4c6d-801b-b5e80fb3cc0c")
+			(uuid "51a395f8-2e45-4c97-8085-58a19ae52a40")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4170,7 @@
 			(net 106 "/matrix/col12")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "faba0e68-fd72-409c-93b5-6da1262e304c")
 		)
 	)
 	(footprint "PCM_Mounting_Keyboard_Stabilizer:Stabilizer_Cherry_MX_2.00u"
@@ -5354,7 +5354,7 @@
 			(net 81 "/mcu/swd")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "df5ad9f0-01fa-4e8f-ad33-cb7a6d649f3e")
 		)
 		(pad "3" thru_hole oval
 			(at 0 5.08)
@@ -9917,7 +9917,7 @@
 			(net 91 "/mcu/caps")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "ba66bf70-91e2-456a-bac2-df15b4a05374")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
@@ -15657,7 +15657,7 @@
 			(net 93 "/mcu/charging_led")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "c9e67890-d58f-46dc-8bbc-1b2819ee9426")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
@@ -19903,7 +19903,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3abce692-34e7-4937-932c-1b98ea6aeb79")
+			(uuid "b7776632-9735-48aa-870e-f82ca3227936")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19914,7 +19914,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "56da6f34-5cbd-4c6d-801b-b5e80fb3cc0c")
+			(uuid "c9a7df9c-c481-4a2c-ab42-c798c354c8db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19966,7 +19966,7 @@
 			(net 107 "/matrix/col13")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "788b0b0b-a2a1-43df-a839-f1ee33ca0180")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
@@ -22833,7 +22833,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3108502b-27cc-484c-a7ea-f18d01e04c38")
+			(uuid "c18a4e6a-3acd-48dd-9e1d-53ee501cbfb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22844,7 +22844,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "36791db3-229a-4b9e-b637-5acba6797362")
+			(uuid "168de6e5-8c08-443e-bba5-96f219efb025")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22896,7 +22896,7 @@
 			(net 92 "/mcu/bat_adc")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "864a7e2c-9509-447f-929d-2dd40fc8b7b9")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
@@ -26470,7 +26470,7 @@
 			(net 110 "/mcu/CHARGE")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "46290713-e1b3-42a1-a054-4d17b86c8679")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
@@ -40709,7 +40709,7 @@
 			(net 83 "/mcu/rgb")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "ee02e60b-ea1c-42d6-badd-4f6b9637f0b8")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.25u"
@@ -42443,7 +42443,7 @@
 			(net 52 "GND")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "8748b97f-b71a-4c85-bc46-bdc801cc9315")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.75u"
@@ -44596,7 +44596,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3abce692-34e7-4937-932c-1b98ea6aeb79")
+			(uuid "0d6245ec-7c03-453d-9bc7-9fe5c6916432")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44607,7 +44607,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "56da6f34-5cbd-4c6d-801b-b5e80fb3cc0c")
+			(uuid "3ecd1ed1-0e15-4eb6-808b-85e038cc6ac8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44659,7 +44659,7 @@
 			(net 52 "GND")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "2e876464-e7aa-4a9d-a364-46291145fda6")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_1.00u"
@@ -47526,7 +47526,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "3abce692-34e7-4937-932c-1b98ea6aeb79")
+			(uuid "22851a4c-7224-4a4e-b0e4-0062a3e98cc8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47537,7 +47537,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "56da6f34-5cbd-4c6d-801b-b5e80fb3cc0c")
+			(uuid "83e2b291-7b87-482f-880a-95c87dffa3de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47589,7 +47589,7 @@
 			(net 108 "/matrix/col14")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "e8de294f-93f6-4079-b4ba-1bf313fa884b")
+			(uuid "adce4a0f-8f05-4e90-9787-addeb134fa6b")
 		)
 	)
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_Plated_2.75u"
@@ -74214,6 +74214,32 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "fdbf4add-28f8-4c9b-bde0-88008552d22a")
+	)
+	(gr_text "Li+"
+		(at 136.39 79.64 0)
+		(layer "B.SilkS")
+		(uuid "a7011d9e-e7fc-4eb7-8890-e3c4fd73f32b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Li-"
+		(at 143.9 79.88 0)
+		(layer "B.SilkS")
+		(uuid "b89b2d65-82c1-4aaf-9d52-5ca6ad967538")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
 	)
 	(gr_text "Firmware at: github.com/haobogu/rmk"
 		(at 203.34 113.05 0)
