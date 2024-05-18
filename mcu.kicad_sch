@@ -2303,7 +2303,7 @@
 	)
 	(hierarchical_label "row5"
 		(shape input)
-		(at 25.4 55.88 180)
+		(at 25.4 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2573,73 +2573,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 58.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "133613f5-1db7-4e2a-8f8c-eb71edcbeb46")
-		(property "Reference" "#PWR03"
-			(at 19.05 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 21.59 58.4199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6554db67-46fa-4d5e-9136-15c95b9e0287")
-		)
-		(instances
-			(project "rmk-ble-keyboard"
-				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
-					(reference "#PWR03")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3187,6 +3120,72 @@
 			(project "rmk-ble-keyboard"
 				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ccfb8ef-e292-47e4-ac0b-39190788a25c")
+		(property "Reference" "#PWR03"
+			(at 19.05 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b6800f2-965b-40f3-b191-ab24d75ad908")
+		)
+		(instances
+			(project "rmk-ble-keyboard"
+				(path "/5823a915-d0ed-4262-9b2d-d2247405cf69/050c3acc-27b4-48c0-bd7b-f7f600c7fd2a"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
