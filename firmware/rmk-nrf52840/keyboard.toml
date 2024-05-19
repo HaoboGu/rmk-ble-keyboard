@@ -28,10 +28,11 @@ output_pins = ["P0_30", "P0_31", "P0_29", "P0_02", "P0_05", "P1_09", "P0_13", "P
 # numslock.low_active = true
 
 
-
 [storage]
 # Storage feature is enabled by default
 # enabled = false
+enabled = true
+num_sectors = 4
 
 [ble]
 enabled = true
