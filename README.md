@@ -1,10 +1,12 @@
 # rmk-ble-keyboard
 
-An open source BLE/USB GH60 keyboard using [Ebyte's E73 nRF52840 module](https://www.cdebyte.com/products/E73-2G4M08S1C), powered by [rmk](https://github.com/haobogu/rmk).
+An open source BLE/USB dual-mode GH60 keyboard using [Ebyte's E73 nRF52840 module](https://www.cdebyte.com/products/E73-2G4M08S1C), powered by [rmk](https://github.com/haobogu/rmk).
 
-Hardware: see root
+![keyboard_image](image/1.jpg)
 
-Firmware: see firmware folder(TODO)
+- Hardware: see root
+- Firmware: see firmware folder
+- Case: [KBDFans Tofu Redux](https://kbdfans.com/products/tofu60-redux-case)
 
 ## Flash firmware
 
@@ -19,13 +21,15 @@ To flash firmware to rmk-ble-keyboard, you should have a debug probe. There are 
     ```
     probe-rs download --verify --format hex --chip nRF52840_xxAA firmware/s140_nrf52_7.3.0_softdevice.hex
     ```
-3. Compile and flash RMK keyboard firmware(requires Rust, see [RMK's user guide](https://haobogu.github.io/rmk/setup_environment.html))
+3. Flash pre-compiled firmware
     ```
-    # TODO: provide compiled firmware
-    probe-rs download --verify --chip nRF52840_xxAA firmware/rmk-ble-keyboard.elf
+    # Flash pre-compiled firmware
+    probe-rs download --verify --chip nRF52840_xxAA firmware/rmk-nrf52840.elf
+    ```
     
-    # Or
+4. Or, you can re-compile RMK keyboard firmware and flash(requires Rust, see [RMK's user guide](https://haobogu.github.io/rmk/setup_environment.html))
+    ```
     # Compile and flash
-    cd firmware
+    cd firmware/rmk-nrf52840
     cargo run --release
     ```
