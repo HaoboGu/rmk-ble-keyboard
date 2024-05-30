@@ -19,8 +19,8 @@ output_pins = ["P0_30", "P0_31", "P0_29", "P0_02", "P0_05", "P1_09", "P0_13", "P
 
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
-# capslock.pin = "PB2"
-# capslock.low_active = true
+capslock.pin = "P0_26"
+capslock.low_active = false
 # scrolllock.pin = "PA3"
 # scrolllock.low_active = true
 # Just ignore if no light pin is used for it
@@ -40,4 +40,4 @@ battery_adc_pin = "P0_04" # AIN_2
 charge_state.pin = "P0_07"
 charge_state.low_active = true
 charge_led.pin = "P0_08"
-charge_led.low_active = true
+charge_led.low_active = false

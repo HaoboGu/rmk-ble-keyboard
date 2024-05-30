@@ -1,0 +1,12 @@
+{
+    "rust-analyzer.check.allTargets": false,
+    "rust-analyzer.check.overrideCommand": [
+        "cargo",
+        "check",
+        "--quiet",
+        "--message-format=json",
+    ],
+    "rust-analyzer.linkedProjects": [
+        "firmware/rmk-nrf52840/Cargo.toml",
+    ]
+}
