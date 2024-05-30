@@ -36,6 +36,8 @@ num_sectors = 4
 
 [ble]
 enabled = true
-# battery_adc_pin = "P0_05"
-# charge_state.pin = "P0_25"
-# charge_state.low_active = true
+battery_adc_pin = "P0_04" # AIN_2
+charge_state.pin = "P0_07"
+charge_state.low_active = true
+charge_led.pin = "P0_08"
+charge_led.low_active = true
