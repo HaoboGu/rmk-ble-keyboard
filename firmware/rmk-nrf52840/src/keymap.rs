@@ -18,7 +18,7 @@ pub static KEYMAP: [[[KeyAction; COL]; ROW]; NUM_LAYER] = [
         [k!(AudioVolUp), k!(B), k!(AudioVolDown), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A)],
         [k!(AudioVolUp), k!(B), k!(AudioVolDown), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A)]
     ]),
-   
+
     layer!([
         [k!(AudioVolUp), k!(B), k!(AudioVolDown), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A)],
         [k!(AudioVolUp), k!(B), k!(AudioVolDown), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A), k!(A)],
