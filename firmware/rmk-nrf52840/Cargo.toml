@@ -10,7 +10,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-rmk = { version = "0.1.15", git = "https://github.com/haobogu/rmk", features = [
+rmk = { version = "0.1.16", git = "https://github.com/haobogu/rmk", features = [
     "nrf52840_ble",
     "col2row",
 ] }

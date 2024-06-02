@@ -1117,8 +1117,8 @@ checksum = "c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f"
 
 [[package]]
 name = "rmk"
-version = "0.1.15"
-source = "git+https://github.com/haobogu/rmk#506e58550c79d02e8252faa60cf3dac96ca23e1f"
+version = "0.1.16"
+source = "git+https://github.com/haobogu/rmk#0c9d9028b09863daa4a2989c2b2c36087486be20"
 dependencies = [
  "bitfield-struct",
  "byteorder",
@@ -1149,9 +1149,8 @@ dependencies = [
 
 [[package]]
 name = "rmk-config"
-version = "0.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d7080dc0b7e07c9053ddfa25c8ce5a3ef103fbc6e66af5e9162b541a1fc2dde8"
+version = "0.1.2"
+source = "git+https://github.com/haobogu/rmk#0c9d9028b09863daa4a2989c2b2c36087486be20"
 dependencies = [
  "embassy-nrf",
  "embedded-hal 1.0.0",
@@ -1161,9 +1160,8 @@ dependencies = [
 
 [[package]]
 name = "rmk-macro"
-version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b87619cc93492c23c2e729818a42b181eef1d170e3ca2191cb26a54879dab55b"
+version = "0.1.2"
+source = "git+https://github.com/haobogu/rmk#0c9d9028b09863daa4a2989c2b2c36087486be20"
 dependencies = [
  "cargo_toml",
  "darling 0.20.3",
