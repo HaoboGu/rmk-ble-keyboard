@@ -15,7 +15,7 @@ output_pins = ["P0_30", "P0_31", "P0_29", "P0_02", "P0_05", "P1_09", "P0_13", "P
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
-[layout]
+# [layout]
 
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
