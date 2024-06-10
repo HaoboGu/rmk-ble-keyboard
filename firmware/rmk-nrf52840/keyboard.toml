@@ -32,7 +32,7 @@ capslock.low_active = false
 # Storage feature is enabled by default
 # enabled = false
 enabled = true
-num_sectors = 4
+num_sectors = 6
 
 [ble]
 enabled = true
