@@ -8,7 +8,7 @@ chip = "nrf52840"
 [matrix]
 rows = 5
 cols = 14
-layers = 3
+layers = 8
 # Input and output pins are mandatory
 input_pins = ["P1_11", "P1_10", "P0_03", "P0_28", "P1_13"]
 output_pins = ["P0_30", "P0_31", "P0_29", "P0_02", "P0_05", "P1_09", "P0_13", "P0_24", "P0_09", "P0_10", "P1_00", "P1_02", "P1_04", "P1_06"]
@@ -32,7 +32,7 @@ capslock.low_active = false
 # Storage feature is enabled by default
 # enabled = false
 enabled = true
-num_sectors = 6
+num_sectors = 32
 
 [ble]
 enabled = true

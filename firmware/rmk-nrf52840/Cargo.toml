@@ -10,7 +10,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-rmk = { version = "0.2", features = [
+rmk = { version = "0.3.2", path = "/Users/haobogu/Projects/keyboard/rmk/rmk", features = [
     "nrf52840_ble",
     "col2row",
     "async_matrix",
@@ -59,5 +59,5 @@ panic = 'unwind'
 codegen-units = 1       # better optimizations
 debug = true            # no overhead for bare-metal
 opt-level = "z"         # optimize for binary size
-overflow-checks = false
+overflow-checks = true
 lto = "fat"
