@@ -1205,6 +1205,7 @@ checksum = "c08c74e62047bb2de4ff487b251e4a92e24f48745648451635cec7d591162d9f"
 [[package]]
 name = "rmk"
 version = "0.3.2"
+source = "git+https://github.com/haobogu/rmk?rev=a801a62#a801a6255fef00c9de495770607e05693520eb32"
 dependencies = [
  "bitfield-struct",
  "byteorder",
@@ -1241,6 +1242,7 @@ dependencies = [
 [[package]]
 name = "rmk-config"
 version = "0.1.6"
+source = "git+https://github.com/haobogu/rmk?rev=a801a62#a801a6255fef00c9de495770607e05693520eb32"
 dependencies = [
  "embassy-nrf",
  "embedded-hal 1.0.0",
@@ -1251,6 +1253,7 @@ dependencies = [
 [[package]]
 name = "rmk-macro"
 version = "0.2.1"
+source = "git+https://github.com/haobogu/rmk?rev=a801a62#a801a6255fef00c9de495770607e05693520eb32"
 dependencies = [
  "cargo_toml",
  "darling 0.20.3",

@@ -1,4 +1,5 @@
 [keyboard]
+name = "rmk-ble-keyboard"
 product_name = "RMK Keyboard"
 vendor_id = 0x4c4b
 product_id = 0x4643
@@ -6,21 +7,36 @@ manufacturer = "haobo"
 chip = "nrf52840"
 
 [matrix]
-rows = 5
-cols = 14
-layers = 8
 # Input and output pins are mandatory
 input_pins = ["P1_11", "P1_10", "P0_03", "P0_28", "P1_13"]
 output_pins = ["P0_30", "P0_31", "P0_29", "P0_02", "P0_05", "P1_09", "P0_13", "P0_24", "P0_09", "P0_10", "P1_00", "P1_02", "P1_04", "P1_06"]
 # WARNING: Currently row2col/col2row is set in RMK's feature gate, configs here do nothing actually
 # row2col = true
 
-# [layout]
+[layout]
+rows = 5
+cols = 14
+layers = 4
+keymap = [
+    [
+        ["Grave", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "Minus", "Equal", "Backspace"],
+        ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "LeftBracket", "RightBracket", "Backslash"],
+        ["Escape", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote", "_", "Enter"],
+        ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "_", "RShift", "UP"],
+        ["LCtrl", "LGui", "LAlt", "_", "_", "Space", "_", "_", "_", "MO(1)", "_", "Left", "Down", "Right"]
+    ],
+    [
+        ["Grave", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "_"],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
+        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"]
+    ]
+]
 
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
-capslock.pin = "P0_26"
-capslock.low_active = false
+capslock = { pin = "P0_26", low_active = false }
 # scrolllock.pin = "PA3"
 # scrolllock.low_active = true
 # Just ignore if no light pin is used for it
@@ -30,7 +46,6 @@ capslock.low_active = false
 
 [storage]
 # Storage feature is enabled by default
-# enabled = false
 enabled = true
 num_sectors = 32
 

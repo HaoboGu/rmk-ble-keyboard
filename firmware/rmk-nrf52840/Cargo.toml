@@ -10,7 +10,7 @@ edition = "2021"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-rmk = { version = "0.3.2", path = "/Users/haobogu/Projects/keyboard/rmk/rmk", features = [
+rmk = { version = "0.3.2", git = "https://github.com/haobogu/rmk", rev = "a801a62", features = [
     "nrf52840_ble",
     "col2row",
     "async_matrix",
@@ -28,7 +28,7 @@ embassy-nrf = { version = "0.2.0", features = [
 ] }
 embassy-executor = { version = "0.6", features = [
     "defmt",
-    "task-arena-size-32768",
+    "task-arena-size-65536",
     "arch-cortex-m",
     "executor-thread",
     "integrated-timers",
