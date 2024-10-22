@@ -1,6 +1,6 @@
 [keyboard]
-name = "rmk-ble-keyboard"
-product_name = "RMK Keyboard"
+name = "elim 60%"
+product_name = "elim 60%"
 vendor_id = 0x4c4b
 product_id = 0x4643
 manufacturer = "haobo"
@@ -22,13 +22,13 @@ keymap = [
         ["Grave", "Kc1", "Kc2", "Kc3", "Kc4", "Kc5", "Kc6", "Kc7", "Kc8", "Kc9", "Kc0", "Minus", "Equal", "Backspace"],
         ["Tab", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "LeftBracket", "RightBracket", "Backslash"],
         ["Escape", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Semicolon", "Quote", "_", "Enter"],
-        ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "_", "RShift", "UP"],
-        ["LCtrl", "LGui", "LAlt", "_", "_", "Space", "_", "_", "_", "MO(1)", "_", "Left", "Down", "Right"]
+        ["LShift", "Z", "X", "C", "V", "B", "N", "M", "Comma", "Dot", "Slash", "_", "_", "UP"],
+        ["LCtrl", "LGui", "LAlt", "_", "_", "Space", "_", "_", "_", "MO(1)", "Left", "_", "Down", "Right"]
     ],
     [
         ["Grave", "F1", "F2", "F3", "F4", "F5", "F6", "F7", "F8", "F9", "F10", "F11", "F12", "_"],
-        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
-        ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
+        ["_", "User0", "User1", "User2", "User3", "User4", "User5", "User6", "User7", "_", "_", "_", "_", "_"],
+        ["_", "User8", "User9", "User10", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"],
         ["_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"]
     ]
