@@ -1,5 +1,5 @@
 {
-    "name": "HID Keyboard",
+    "name": "elim 60%",
     "vendorId": "0x4C4B",
     "productId": "0x4643",
     "lighting": "none",
@@ -8,12 +8,6 @@
         "cols": 14
     },
     "layouts": {
-        "labels": [
-            [
-                "label",
-                "label2"
-            ]
-        ],
         "keymap": [
             [
                 "0,0",
