@@ -15,7 +15,7 @@ rmk = { version = "0.4", features = [
     "rapid_debouncer",
     "async_matrix",
 ] }
-cortex-m-rt = "0.7.3"
+cortex-m-rt = "0.7"
 embassy-time = { version = "0.3", features = ["tick-hz-32_768", "defmt"] }
 embassy-nrf = { version = "0.2.0", features = [
     "defmt",
